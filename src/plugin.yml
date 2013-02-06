@@ -1,0 +1,23 @@
+name: Birthday
+main: me.fun.woder.BirthDay.BirthDay
+version: 3.3
+author: woder
+commands:
+    birthday:
+        usage: birthday <day> <month>
+
+    birthdayp:
+        usage: birthdayp <day> <month> <player>
+
+    bd:
+        usage: bd <player>
+permissions:
+    birthday.check:
+        description: |
+        default: true
+    birthday.admin:
+        description: |
+        default: op
+    birthday.use:
+        description: |
+        default: true
